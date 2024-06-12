@@ -94,7 +94,7 @@ const FormComponent = ({ initialValues, validationSchema, onSubmit, fields }) =>
           </StyledField>
         ))}
         <Button type="submit" disabled={isSubmitting}>
-          Generate IBAN
+          Create
         </Button>
       </StyledForm>
     </FormContainer>

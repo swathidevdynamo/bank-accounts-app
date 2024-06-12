@@ -72,8 +72,9 @@ export const ListHeader = styled.h2`
   display: flex;
 `;
 
-export const divContainer = styled.div`
+export const HomeContainer = styled.div`
   display: flex;
+  flex-direction: column;
   margin:20px;
 `;
 

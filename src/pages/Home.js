@@ -1,12 +1,13 @@
 import React from 'react';
-import { divContainer } from '../components/StyledComponents';
+import { HomeContainer } from '../components/StyledComponents';
 
 const Home = () => {
   return (
-    <divContainer>
-      <h2>Home Page</h2>
-      <h3>Welcome to our bank account management system!</h3>
-    </divContainer>
+    <HomeContainer>
+      <div>Home Page</div>
+      <br/>
+      <div>Welcome to our bank account management system!</div>
+    </HomeContainer>
   );
 };
 
